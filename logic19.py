@@ -8,4 +8,7 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    x1=x%10
+    x2=x//10
+    return x1==x2
+print(main(33))
