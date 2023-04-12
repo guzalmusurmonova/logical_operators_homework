@@ -8,5 +8,6 @@ def main(n):
     Returns:
         bool: answer
     """
-
-    return
+ 
+    return n%10>0
+print(main(1101))
